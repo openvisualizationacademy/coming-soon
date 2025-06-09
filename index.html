@@ -8,62 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" type="module"></script>
 
-  <!-- Specific to the Coming Soon Page -->
-  <style>
-    header nav a {
-      cursor: default;
-    }
-
-    .logo canvas {
-      width: 7.2rem !important;
-    }
-
-    main {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: calc(100vh - 12rem - 2.4rem - 1.6rem);
-    }
-
-    #about {
-      margin: 4.8rem auto;
-    }
-
-    .sponsors {
-      margin-block-end: 0;
-    }
-
-    .coming-soon {
-      background: linear-gradient(to right, var(--primary-500),
-          var(--primary-600),
-          var(--primary-700),
-          var(--primary-800));
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-fill-color: transparent;
-      background-size: 200% auto;
-      animation: textShine 2s ease-in-out infinite alternate;
-    }
-
-    @keyframes textShine {
-      0% {
-        background-position: 0% 50%;
-      }
-
-      100% {
-        background-position: 100% 50%;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .coming-soon {
-        animation: none;
-        color: var(--primary-700);
-      }
-    }
-  </style>
-
   <!-- https://realfavicongenerator.net/ -->
   <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
