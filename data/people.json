@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Alberto Cairo",
+    "tagline": "Journalist, designer, art director, and educator",
+    "photo": "alberto-cairo.jpeg",
+    "bio": "Journalist, designer, art director, and educator. He’s the Knight Chair in Infographics and Data Visualization at the University of Miami’s School of Communication, and director of Visualization at UM’s Frost Institute for Data Science and Computing.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Lauren Klein",
+    "tagline": "Professor at Emory University and Director of the Emory Digital Humanities Lab",
+    "photo": "lauren-klein.jpg",
+    "bio": "Lauren Klein is Professor of Quantitative Theory & Methods and English at Emory University, where she also directs the Emory Digital Humanities Lab and the Atlanta Interdisciplinary AI Network. Her research brings together computational and critical methods to explore questions of gender, race, and justice. Klein is author (with Catherine D’Ignazio) of the award-winning Data Feminism (MIT Press, 2020), and is currently completing Data by Design: An Interactive History of Data Visualization.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Rodolfo Almeida",
+    "tagline": "Independent information designer and visual journalist",
+    "photo": "rodolfo-almeida.png",
+    "bio": "Rodolfo Almeida is a freelance visual journalist, information designer, and researcher from São Paulo. He holds a degree in journalism from PUC-SP and a master’s in design from the Federal University of Rio de Janeiro, where he studied how the climate crisis is portrayed in dataviz. He has created dozens of infographics for outlets like Nexo Jornal, Núcleo, The Intercept, Greenpeace, the European Commission and more. His work has been recognized by awards like Malofiej, SND, Sigma, ÑH, and IIB.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Frank Elavsky",
+    "tagline": "Researcher in Human-Computer Interaction",
+    "photo": "frank-elavsky.png",
+    "bio": "Frank is a PhD candidate and researcher at the Human-Computer Interaction Institute at Carnegie Mellon University. His work explores the intersection of interactive data visualization and accessibility. Frank has collaborated with companies such as Apple's Human-Centered Machine Intelligence research group, Adobe, Microsoft, Visa, and Highcharts. Frank’s contributions focus on enabling people with and without disabilities find insights, make decisions, and live better lives using data.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Catherine D'Ignazio",
+    "tagline": "Associate Professor of Urban Science & Planning, Director of the Data + Feminism Lab",
+    "photo": "catherine-d-ignazio.jpg",
+    "bio": "Catherine D’Ignazio is an Associate Professor of Urban Science and Planning and Director of the Data + Feminism Lab in the Department of Urban Studies and Planning at MIT. She is the co-author of Data Feminism (2020) and author of Counting Feminicide: Data Feminism in Action (2024), both award-winning books that describe more liberatory and empowering approaches to data science and visualization.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Bridget Winds Cogley",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Enrico Bertini",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Gurman Bhatia",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Hannah Dormido",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Hiram Henriquez",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "James McKenney",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Joy Victor",
+    "tagline": "Data Analyst and AI Ethics Wingwoman",
+    "photo": "joy-victor.jpg",
+    "bio": "Joy Victor has a keen eye for uncovering unethical practices in the data industry. She leads the data analysis and visualization efforts of AIAI Network's Public Interest AI project, where she examines and critiques the historical, social, political, and technical aspects of the city’s data quality management in relation to the Atlanta Beltline. Joy also organizes the Rebel Tech Newsletter, co-leads the global Tableau + AI Tableau User Group, and supports the Black Women in Data community.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Luís Melgar",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Raymond Balise",
+    "tagline": "",
+    "photo": "",
+    "bio": "",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Vinicius Sueiro",
+    "tagline": "Designer and Front-end Developer",
+    "role": "contributor",
+    "links": ["https://vsueiro.com/"]
+  },
+  {
+    "name": "Melissa Strong",
+    "tagline": "Back-end Developer",
+    "role": "contributor",
+    "links": ["https://www.linkedin.com/in/melissaashliestrong/"]
+  },
+  {
+    "name": "Larry Flores",
+    "tagline": "Video Production and Editing",
+    "role": "contributor",
+    "links": ["https://www.linkedin.com/in/larry-flores-ii-5617351bb/"]
+  },
+  {
+    "name": "Rosaura Echegaray",
+    "tagline": "Logistics and Finance",
+    "role": "contributor",
+    "links": ["https://com.miami.edu/profile/rosaura-echegaray/"]
+  },
+  {
+    "name": "Michela Tjan",
+    "tagline": "Writer and Developer",
+    "role": "contributor",
+    "links": ["https://www.linkedin.com/in/melissaashliestrong/"],
+    "former": true
+  }
+]

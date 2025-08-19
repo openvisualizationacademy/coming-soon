@@ -1,6 +1,8 @@
 import Accessibility from "./Accessibility.js";
 import Logo from "./Logo.js";
 import ThemePicker from "./ThemePicker.js";
+import Instructors from "./Instructors.js";
+import Contributors from "./Contributors.js";
 import PreviewVideo from "./PreviewVideo.js";
 
 export default class App {
@@ -25,6 +27,8 @@ export default class App {
       wave: true,
     });
 
+    this.instructors = new Instructors(".instructors");
+    this.contributors = new Contributors(".contributors");
     this.themePicker = new ThemePicker(".theme-picker");
     this.previewVideo = new PreviewVideo(this, ".preview");
 
