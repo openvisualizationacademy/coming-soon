@@ -5,15 +5,16 @@ export default class Instructors {
     this.element = document.querySelector(selector) || document.body;
     if (!this.element) return;
 
+    this.dialog = this.element.querySelector('dialog');
     this.role = "instructor";
 
     this.setup();
   }
 
   setupCards() {
-    this.data.forEach((person) => {
+    this.data.forEach((person, index) => {
       const card = `
-      <a href="#" class="person" data-role="${this.role}">
+      <div role="button" tabindex="0" class="person" data-role="${this.role}" onclick="app.instructors.open(${index})">
         <figure>
           ${
             person.photo
@@ -25,9 +26,9 @@ export default class Instructors {
             <span class="tagline">${person.tagline}</span>  
           </figcaption>
         </figure>
-      </a>
+      </div>
       `;
-      this.element.innerHTML += card;
+      this.element.insertAdjacentHTML("beforeend", card);
     });
   }
 
@@ -37,6 +38,43 @@ export default class Instructors {
     this.data = this.data.filter((person) => person.role === this.role);
 
     this.setupCards();
+  }
+
+  clear() {
+    this.dialog.querySelector('.details').remove()
+  }
+
+  open(index) {
+    if (!this.dialog) return;
+    this.clear();
+
+    const person = this.data[index]
+
+    const details = `
+    <div class="details">
+      <div class="person" data-role="${this.role}">
+        <figure>
+          ${
+            person.photo
+              ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile photo">`
+              : `<div class="media"></div>`
+          }
+          <figcaption>
+            <strong>${person.name}<span class="screen-reader"/>.</span></strong>
+            <span class="tagline">${person.tagline}</span>  
+          </figcaption>
+        </figure>
+        <p>${person.bio}</p>
+      </div>
+    </div>
+    `;
+
+    this.dialog.insertAdjacentHTML('beforeend', details);
+    this.dialog.showModal();
+  }
+
+  close() {
+    this.dialog.close();
   }
 
   update() {}
