@@ -17,7 +17,7 @@ export default class Instructors {
         <figure>
           ${
             person.photo
-              ? `<img class="media" src="media/people/${person.photo}" loading="lazy" alt="Profile photo">`
+              ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile photo">`
               : `<div class="media"></div>`
           }
           <figcaption>
