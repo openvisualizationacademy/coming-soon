@@ -13,7 +13,9 @@
     "photo": "lauren-klein.jpg",
     "bio": "Lauren Klein is Professor of Quantitative Theory & Methods and English at Emory University, where she also directs the Emory Digital Humanities Lab and the Atlanta Interdisciplinary AI Network. Her research brings together computational and critical methods to explore questions of gender, race, and justice. Klein is author (with Catherine D’Ignazio) of the award-winning Data Feminism (MIT Press, 2020), and is currently completing Data by Design: An Interactive History of Data Visualization.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://lklein.com"
+    ]
   },
   {
     "name": "Rodolfo Almeida",
@@ -21,7 +23,11 @@
     "photo": "rodolfo-almeida.jpg",
     "bio": "Rodolfo Almeida is a freelance visual journalist, information designer, and researcher from São Paulo. He holds a degree in journalism from PUC-SP and a master’s in design from the Federal University of Rio de Janeiro, where he studied how the climate crisis is portrayed in dataviz. He has created dozens of infographics for outlets like Nexo Jornal, Núcleo, The Intercept, Greenpeace, the European Commission and more. His work has been recognized by awards like Malofiej, SND, Sigma, ÑH, and IIB.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://rodolfoalmeida.info/",
+      "https://linkedin.com/in/rodolfo-almeida/",
+      "https://bsky.app/profile/rodolfoalmd.nucleo.jor.br"
+    ]
   },
   {
     "name": "Frank Elavsky",
@@ -29,7 +35,11 @@
     "photo": "frank-elavsky.jpg",
     "bio": "Frank is a PhD candidate and researcher at the Human-Computer Interaction Institute at Carnegie Mellon University. His work explores the intersection of interactive data visualization and accessibility. Frank has collaborated with companies such as Apple's Human-Centered Machine Intelligence research group, Adobe, Microsoft, Visa, and Highcharts. Frank’s contributions focus on enabling people with and without disabilities find insights, make decisions, and live better lives using data.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://frank.computer",
+      "https://bsky.app/profile/frank.computer",
+      "https://linkedin.com/in/elavsky/"
+    ]
   },
   {
     "name": "Catherine D'Ignazio",
@@ -37,7 +47,9 @@
     "photo": "catherine-d-ignazio.jpg",
     "bio": "Catherine D’Ignazio is an Associate Professor of Urban Science and Planning and Director of the Data + Feminism Lab in the Department of Urban Studies and Planning at MIT. She is the co-author of Data Feminism (2020) and author of Counting Feminicide: Data Feminism in Action (2024), both award-winning books that describe more liberatory and empowering approaches to data science and visualization.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://bsky.app/profile/kanarinka.bsky.social"
+    ]
   },
   {
     "name": "Joy Victor",
@@ -45,7 +57,11 @@
     "photo": "joy-victor.jpg",
     "bio": "Joy Victor is a Data Analyst and AI Ethics Wingwoman. She leads the data analysis and visualization efforts for the AIAI Network's Public Interest AI project under DataedX. In her most recent report, she examined the intersection of Georgia’s cybercrime activity and the influence of AI. Joy is also a Tableau Ambassador, co-lead of the Tableau + AI User Group, and a contributor to the Rebel Tech Newsletter.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://www.linkedin.com/in/jhoie",
+      "https://x.com/Jhoie__",
+      "https://medium.com/@victoriousjvictor"
+    ]
   },
   {
     "name": "Luis Melgar",
@@ -53,7 +69,9 @@
     "photo": "luis-melgar.jpg",
     "bio": "Luis Melgar is a graphics reporter with more than a decade of experience making data visualizations, both static and interactive. Since 2022, he has worked for the graphics team at The Washington Post, where he mostly covers economic issues. Before joining the Post, he worked for Univision, The Wall Street Journal and Guns & America, a public media reporting collaborative that covered gun violence and gun culture in the U.S.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://www.lmelgar.me/"
+    ]
   },
   {
     "name": "Raymond Balise",
@@ -61,7 +79,10 @@
     "photo": "raymond-balise.jpg",
     "bio": "Ray earned his PhD in Experimental Psychology from the University of Texas in 1996. He taught award-winning courses at Stanford in what’s now called data science until joining the University of Miami in 2014. There, he’s continued to earn teaching awards for courses in statistical computing, biostatistics, data science, and reproducible research. His current work explores the intersection of HIV, mental health, substance use, and health disparities.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://derailment.netlify.app/",
+      "https://github.com/RaymondBalise"
+    ]
   },
   {
     "name": "Hannah Dormido",
@@ -69,7 +90,10 @@
     "photo": "hannah-dormido.jpg",
     "bio": "Hannah Dormido is an award-winning visual journalist and cartographer at The Washington Post, where she focuses on national news and politics. With more than a decade of experience at The Post, Bloomberg News, and the Financial Times, she has shaped stories that turn complex data into compelling visuals. She is the president of the North American Cartographic Information Society and creator of Dormidots, a distinctive hand-drawn mapping style.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://hannahdormido.com",
+      "https://instagram.com/byhannahdormido"
+    ]
   },
   {
     "name": "Bridget Winds Cogley",
