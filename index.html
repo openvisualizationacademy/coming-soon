@@ -167,8 +167,42 @@
             <time datetime="2025-12-10">December 10, 2025</time>
           </strong>
         </p>
-
       </div>
+
+      <figure class="preview">
+        <div class="video-wrapper">
+          <video src="media/preview-720.mp4" oncanplaythrough="this.classList.add('loaded')" muted loop autoplay
+            playsinline alt="Welcome video"></video>
+
+          <button class="button tertiary" data-control="playWithAudio">
+            <svg class="icon" data-iconoir="play-solid" width="24px" height="24px" stroke-width="2" viewBox="0 0 24 24"
+              fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path
+                d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z">
+              </path>
+            </svg>
+
+            <span>Play <span class="screen-reader">welcome video</span> with audio</span>
+          </button>
+        </div>
+        <figcaption class="secondary">
+          <span>Welcome to the Academy</span>
+          <span class="duration">
+            <span class="screen-reader">Video duration: </span>
+            <svg class="icon" data-iconoir="timer" viewBox="0 0 24 24" width="24px" height="24px" stroke="currentColor"
+              fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 2L15 2"></path>
+              <path d="M12 10L12 14"></path>
+              <path
+                d="M12 22C16.4183 22 20 18.4183 20 14C20 9.58172 16.4183 6 12 6C7.58172 6 4 9.58172 4 14C4 18.4183 7.58172 22 12 22Z">
+              </path>
+            </svg>
+            1 min
+          </span>
+        </figcaption>
+      </figure>
+
     </section>
 
     <section id="about" class="about grid">

@@ -1,6 +1,7 @@
 import Accessibility from "./Accessibility.js";
 import Logo from "./Logo.js";
 import ThemePicker from "./ThemePicker.js";
+import PreviewVideo from "./PreviewVideo.js";
 
 export default class App {
   constructor(selector) {
@@ -25,6 +26,7 @@ export default class App {
     });
 
     this.themePicker = new ThemePicker(".theme-picker");
+    this.previewVideo = new PreviewVideo(this, ".preview");
 
     // Allow anchor navigation, but don’t change url
     document.querySelectorAll('a[href^="#"]').forEach((a) => {
