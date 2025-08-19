@@ -2,7 +2,7 @@
   {
     "name": "Alberto Cairo",
     "tagline": "Journalist, designer, art director, and educator",
-    "photo": "alberto-cairo.jpeg",
+    "photo": "alberto-cairo.jpg",
     "bio": "Journalist, designer, art director, and educator. He’s the Knight Chair in Infographics and Data Visualization at the University of Miami’s School of Communication, and director of Visualization at UM’s Frost Institute for Data Science and Computing.",
     "role": "instructor",
     "links": []
@@ -40,6 +40,38 @@
     "links": []
   },
   {
+    "name": "Joy Victor",
+    "tagline": "Data Analyst & Tableau Ambassador",
+    "photo": "joy-victor.jpg",
+    "bio": "Joy Victor is a Data Analyst and AI Ethics Wingwoman. She leads the data analysis and visualization efforts for the AIAI Network's Public Interest AI project under DataedX. In her most recent report, she examined the intersection of Georgia’s cybercrime activity and the influence of AI. Joy is also a Tableau Ambassador, co-lead of the Tableau + AI User Group, and a contributor to the Rebel Tech Newsletter.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Luis Melgar",
+    "tagline": "Graphics Reporter at The Washington Post",
+    "photo": "luis-melgar.jpg",
+    "bio": "Luis Melgar is a graphics reporter with more than a decade of experience making data visualizations, both static and interactive. Since 2022, he has worked for the graphics team at The Washington Post, where he mostly covers economic issues. Before joining the Post, he worked for Univision, The Wall Street Journal and Guns & America, a public media reporting collaborative that covered gun violence and gun culture in the U.S.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Raymond Balise",
+    "tagline": "Associate Professor of Biostatistics at the University of Miami",
+    "photo": "raymond-balise.jpg",
+    "bio": "Ray earned his PhD in Experimental Psychology from the University of Texas in 1996. He taught award-winning courses at Stanford in what’s now called data science until joining the University of Miami in 2014. There, he’s continued to earn teaching awards for courses in statistical computing, biostatistics, data science, and reproducible research. His current work explores the intersection of HIV, mental health, substance use, and health disparities.",
+    "role": "instructor",
+    "links": []
+  },
+  {
+    "name": "Hannah Dormido",
+    "tagline": "Graphics reporter and cartographer at the Washington Post",
+    "photo": "hannah-dormido.jpg",
+    "bio": "Hannah Dormido is an award-winning visual journalist and cartographer at The Washington Post, where she focuses on national news and politics. With more than a decade of experience at The Post, Bloomberg News, and the Financial Times, she has shaped stories that turn complex data into compelling visuals. She is the president of the North American Cartographic Information Society and creator of Dormidots, a distinctive hand-drawn mapping style.",
+    "role": "instructor",
+    "links": []
+  },
+  {
     "name": "Bridget Winds Cogley",
     "tagline": "",
     "photo": "",
@@ -64,14 +96,6 @@
     "links": []
   },
   {
-    "name": "Hannah Dormido",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
-    "role": "instructor",
-    "links": []
-  },
-  {
     "name": "Hiram Henriquez",
     "tagline": "",
     "photo": "",
@@ -81,30 +105,6 @@
   },
   {
     "name": "James McKenney",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
-    "role": "instructor",
-    "links": []
-  },
-  {
-    "name": "Joy Victor",
-    "tagline": "Data Analyst and AI Ethics Wingwoman",
-    "photo": "joy-victor.jpg",
-    "bio": "Joy Victor has a keen eye for uncovering unethical practices in the data industry. She leads the data analysis and visualization efforts of AIAI Network's Public Interest AI project, where she examines and critiques the historical, social, political, and technical aspects of the city’s data quality management in relation to the Atlanta Beltline. Joy also organizes the Rebel Tech Newsletter, co-leads the global Tableau + AI Tableau User Group, and supports the Black Women in Data community.",
-    "role": "instructor",
-    "links": []
-  },
-  {
-    "name": "Luís Melgar",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
-    "role": "instructor",
-    "links": []
-  },
-  {
-    "name": "Raymond Balise",
     "tagline": "",
     "photo": "",
     "bio": "",
