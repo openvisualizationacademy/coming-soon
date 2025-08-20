@@ -5,7 +5,11 @@
     "photo": "alberto-cairo.jpg",
     "bio": "Journalist, designer, art director, and educator. He’s the Knight Chair in Infographics and Data Visualization at the University of Miami’s School of Communication, and director of Visualization at UM’s Frost Institute for Data Science and Computing.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://www.albertocairo.com/",
+      "https://www.linkedin.com/in/albertocairo/",
+      "https://bsky.app/profile/albertocairo.com"
+    ]
   },
   {
     "name": "Lauren Klein",
@@ -96,6 +100,18 @@
     ]
   },
   {
+    "name": "Gurman Bhatia",
+    "tagline": "Founder at Revisual Labs",
+    "photo": "gurman-bhatia.jpg",
+    "bio": "Gurman Bhatia is the Founder & Director of Revisual Labs, India’s foremost information design studio. An award-winning practice, Revisual Labs works at the intersection of data, design, and storytelling. A former data journalist with over a decade of experience, Gurman has trained 1,500+ professionals worldwide in data storytelling, helping organizations transform complex information into clarity, creativity, and impact.",
+    "role": "instructor",
+    "links": [
+      "https://www.gurmanbhatia.com",
+      "https://www.linkedin.com/in/gurmanbhatia/",
+      "https://www.instagram.com/chartwaali/"
+    ]
+  },
+  {
     "name": "Bridget Winds Cogley",
     "tagline": "",
     "photo": "",
@@ -110,18 +126,6 @@
     "bio": "",
     "role": "instructor",
     "links": []
-  },
-  {
-    "name": "Gurman Bhatia",
-    "tagline": "Founder at Revisual Labs",
-    "photo": "gurman-bhatia.jpg",
-    "bio": "Gurman Bhatia is the Founder & Director of Revisual Labs, India’s foremost information design studio. An award-winning practice, Revisual Labs works at the intersection of data, design, and storytelling. A former data journalist with over a decade of experience, Gurman has trained 1,500+ professionals worldwide in data storytelling, helping organizations transform complex information into clarity, creativity, and impact.",
-    "role": "instructor",
-    "links": [
-      "https://www.gurmanbhatia.com",
-      "https://www.linkedin.com/in/gurmanbhatia/",
-      "https://www.instagram.com/chartwaali/"
-    ]
   },
   {
     "name": "Hiram Henriquez",
