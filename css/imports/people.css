@@ -83,9 +83,100 @@ a.person[data-role="contributor"]:focus-visible .icon {
   opacity: 1;
 }
 
+.people dialog {
+  border: 1px solid currentColor;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+}
+
+.people dialog[open] {
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: repeat(12, 1fr);
+  margin-inline: auto;
+  max-width: var(--max-width);
+  overflow: visible;
+  place-self: center;
+  width: calc(100% - calc(var(--margin) * 2));
+}
+
+body:has(.people dialog[open]) {
+  filter: blur(8px);
+}
+
+.people dialog::backdrop {
+  background: light-dark(var(--neutral-100), var(--neutral-900));
+  opacity: .75;
+}
+
+.people dialog .details {
+  grid-column: span 12;
+}
+
 .people dialog .links svg {
-  width: 2rem;
   height: 2rem;
+  width: 2rem;
+}
+
+.people dialog > .button {
+  left: 1.6rem;
+  position: absolute;
+  top: 0;
+  translate: 0 -50%;
+}
+
+.people dialog .person {
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: repeat(3, 1fr);
+  margin-inline: auto;
+  max-width: var(--max-width);
+  place-self: center;
+  width: 100%;
+}
+
+.people dialog .person .media {
+  width: 100%;
+}
+
+.people dialog .person .info {
+  padding-block: 1.6rem;
+}
+
+.people dialog .person h2 {
+  margin-block-end: .8rem;
+}
+
+.people dialog .person .tagline {
+  font-size: unset;
+}
+
+.people dialog .person .bio {
+  margin-block-end: 0rem;
+  opacity: .75;
+  padding-block-start: 1.6rem;
+}
+
+.people dialog .links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-self: end;
+  list-style: none;
+  margin: 0;
+  padding: 1.6rem;
+}
+
+.people dialog .links li {
+  margin: 0;
+  padding: 0;
+}
+
+.people dialog .links li a {
+  align-items: center;
+  display: flex;
+  gap: 1.6rem;
+  text-decoration: none;
 }
 
 @media (hover: hover) {

@@ -73,19 +73,16 @@ export default class Instructors {
     const details = `
     <div class="details">
       <div class="person" data-role="${this.role}">
-        <figure>
-          ${
-            person.photo
-              ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile photo">`
-              : `<div class="media"></div>`
-          }
-          <figcaption>
-            <strong>${person.name}<span class="screen-reader"/>.</span></strong>
-            <span class="tagline">${person.tagline}</span>  
-          </figcaption>
-        </figure>
-        <p>${person.bio}</p>
-
+        ${
+          person.photo
+            ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile photo">`
+            : `<div class="media"></div>`
+        }
+        <div class="info">
+          <h2><strong>${person.name}<span class="screen-reader"/>.</span></strong></h2>
+          <span class="tagline">${person.tagline}</span>  
+          <p class="bio">${person.bio}</p>
+        </div>
         <ul class="links">
           ${ this.list(person.links) }
           </ul>
