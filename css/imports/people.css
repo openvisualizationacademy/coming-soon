@@ -83,6 +83,11 @@ a.person[data-role="contributor"]:focus-visible .icon {
   opacity: 1;
 }
 
+.people dialog .links svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 @media (hover: hover) {
   .person:is(a,button,[role=button]) {
     border: 1px solid transparent;
