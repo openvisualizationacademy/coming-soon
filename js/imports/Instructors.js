@@ -65,6 +65,9 @@ export default class Instructors {
           </figcaption>
         </figure>
         <p>${person.bio}</p>
+        <ul class="links">
+          ${ this.list(person.links) }
+          </ul>
       </div>
     </div>
     `;
@@ -75,6 +78,14 @@ export default class Instructors {
 
   close() {
     this.dialog.close();
+  }
+
+  list(links) {
+    return links.map( link => `
+      <li>
+        <a href="${ link }" target="_blank">${ link }</a>
+      </li>
+    `).join("");
   }
 
   update() {}
