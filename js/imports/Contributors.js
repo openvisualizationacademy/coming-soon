@@ -23,7 +23,7 @@ export default class Contributors {
         </svg>
       </a>
       `;
-      this.element.innerHTML += card;
+      this.element.insertAdjacentHTML('beforeend', card);
     });
   }
 
