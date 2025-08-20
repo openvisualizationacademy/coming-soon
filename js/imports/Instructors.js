@@ -8,6 +8,25 @@ export default class Instructors {
     this.dialog = this.element.querySelector('dialog');
     this.role = "instructor";
 
+    this.domains = {
+      "linkedin.com" : "linkedin",
+      "instagram.com" : "instagram",
+      "github.com" : "github",
+      "medium.com" : "medium",
+      "bsky.app" : "bluesky",
+      "x.com" : "x",
+    }
+
+    this.icons = {
+      "internet" : "internet icon",
+      "linkedin": "linkedin icon",
+      "instagram": "instagram icon",
+      "github": "github icon",
+      "medium": "medium icon",
+      "bluesky": "bluesky icon",
+      "x": "x icon",
+    }
+
     this.setup();
   }
 
@@ -65,6 +84,7 @@ export default class Instructors {
           </figcaption>
         </figure>
         <p>${person.bio}</p>
+
         <ul class="links">
           ${ this.list(person.links) }
           </ul>
@@ -80,10 +100,33 @@ export default class Instructors {
     this.dialog.close();
   }
 
+  icon(link) {
+    let platform = "internet";
+
+    for (let domain in this.domains) {
+      console.log(domain);
+      if (link.includes(`//${domain}`) || link.includes(`//www.${domain}`) ) {
+        platform = this.domains[ domain ];
+        break;
+      }
+    }
+
+    return this.icons[platform];
+  }
+
+  clean(link) {
+    const start = /^(https?:\/\/)?(www\.)?/i;
+    const end = /\/$/i;
+    return link.replace(start, "").replace(end, "").toLowerCase();
+  }
+
   list(links) {
     return links.map( link => `
       <li>
-        <a href="${ link }" target="_blank">${ link }</a>
+        <a href="${ link }" target="_blank">
+          ${ this.icon(link) }
+          ${ this.clean(link) }
+        </a>
       </li>
     `).join("");
   }
