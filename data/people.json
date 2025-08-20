@@ -113,11 +113,15 @@
   },
   {
     "name": "Gurman Bhatia",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
+    "tagline": "Founder at Revisual Labs",
+    "photo": "gurman-bhatia.jpg",
+    "bio": "Gurman Bhatia is the Founder & Director of Revisual Labs, India’s foremost information design studio. An award-winning practice, Revisual Labs works at the intersection of data, design, and storytelling. A former data journalist with over a decade of experience, Gurman has trained 1,500+ professionals worldwide in data storytelling, helping organizations transform complex information into clarity, creativity, and impact.",
     "role": "instructor",
-    "links": []
+    "links": [
+      "https://www.gurmanbhatia.com",
+      "https://www.linkedin.com/in/gurmanbhatia/",
+      "https://www.instagram.com/chartwaali/"
+    ]
   },
   {
     "name": "Hiram Henriquez",
