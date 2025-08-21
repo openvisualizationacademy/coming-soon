@@ -28,6 +28,8 @@ export default class Instructors {
       "x": `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.8198 20.7684L3.75317 3.96836C3.44664 3.57425 3.72749 3 4.22678 3H6.70655C6.8917 3 7.06649 3.08548 7.18016 3.23164L20.2468 20.0316C20.5534 20.4258 20.2725 21 19.7732 21H17.2935C17.1083 21 16.9335 20.9145 16.8198 20.7684Z"></path><path d="M20 3L4 21"></path></svg>`,
     }
 
+    this.index = 0;
+
     this.setup();
   }
 
@@ -58,6 +60,22 @@ export default class Instructors {
     this.data = this.data.filter((person) => person.role === this.role);
 
     this.setupCards();
+
+    // Change instructor with arrow keys when dialog is open
+    document.addEventListener('keydown', (event) => {
+      if (!this.dialog.open) return;
+
+      const {key} = event;
+
+      if (key === "ArrowLeft") {
+        this.index--;
+        this.open(this.index);
+      } else if (key === "ArrowRight") {
+        this.index++;
+        this.open(this.index);
+      }
+
+    });
   }
 
   clear() {
@@ -68,7 +86,10 @@ export default class Instructors {
     if (!this.dialog) return;
     this.clear();
 
-    const person = this.data[index]
+    if (index < 0) this.index = this.data.length - 1;
+    if (index > this.data.length - 1) this.index = 0;
+
+    const person = this.data[this.index]
 
     const details = `
     <div class="details">
