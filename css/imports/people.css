@@ -71,6 +71,11 @@
   /* opacity: 0.5; */
 }
 
+.person[data-role="contributor"] strong {
+  align-items: center;
+  display: flex;
+}
+
 .person[data-role="contributor"] .icon {
   opacity: 0;
   position: absolute;
