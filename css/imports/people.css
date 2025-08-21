@@ -83,20 +83,13 @@ a.person[data-role="contributor"]:focus-visible .icon {
   opacity: 1;
 }
 
-.people dialog {
+.people dialog[open] {
   border: 1px solid currentColor;
   border-radius: 1.6rem;
-  padding: 1.6rem;
-}
-
-.people dialog[open] {
-  display: grid;
-  gap: var(--gutter);
-  grid-template-columns: repeat(12, 1fr);
   margin-inline: auto;
   max-width: var(--max-width);
   overflow: visible;
-  place-self: center;
+  padding: 1.6rem;
   width: calc(100% - calc(var(--margin) * 2));
 }
 
