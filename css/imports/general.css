@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 100 900;
 
-  src: url("../../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2 supports variations"),
+src: url("../../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2 supports variations"),
     url("../../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
 }
 
@@ -72,7 +72,8 @@ section h2 {
 }
 
 footer {
-  min-height: 50vb;
+  border-block-start: 1px solid light-dark(var(--neutral-400), var(--neutral-600));
+  padding-block: var(--gutter);
 }
 
 .grid {
