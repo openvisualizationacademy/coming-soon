@@ -115,12 +115,7 @@ body:has(.people dialog[open]) {
   aspect-ratio: 1;
   margin-block-end: 1.6rem;
   margin-inline: auto;
-
-  /* left: 1.6rem; */
-  /* left: 4.2rem;
-  position: fixed;
-  top: .8rem;
-  z-index: 1; */
+  padding: .6rem;
 }
 
 .people dialog .person {
