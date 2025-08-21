@@ -88,7 +88,6 @@ a.person[data-role="contributor"]:focus-visible .icon {
   border-radius: 1.6rem;
   margin-inline: auto;
   max-width: var(--max-width);
-  overflow: visible;
   padding: 1.6rem;
   width: calc(100% - calc(var(--margin) * 2));
 }
@@ -107,28 +106,38 @@ body:has(.people dialog[open]) {
 }
 
 .people dialog .links svg {
+  flex-shrink: 0;
   height: 2rem;
   width: 2rem;
 }
 
 .people dialog > .button {
-  left: 1.6rem;
-  position: absolute;
-  top: 0;
-  translate: 0 -50%;
+  aspect-ratio: 1;
+  margin-block-end: 1.6rem;
+  margin-inline: auto;
+
+  /* left: 1.6rem; */
+  /* left: 4.2rem;
+  position: fixed;
+  top: .8rem;
+  z-index: 1; */
 }
 
 .people dialog .person {
   display: grid;
   gap: var(--gutter);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   margin-inline: auto;
   max-width: var(--max-width);
+  padding: 0;
   place-self: center;
   width: 100%;
 }
 
 .people dialog .person .media {
+  align-self: start;
+  justify-self: center;
+  max-width: 24rem;
   width: 100%;
 }
 
@@ -145,19 +154,23 @@ body:has(.people dialog[open]) {
 }
 
 .people dialog .person .bio {
+  font-size: 1.6rem;
   margin-block-end: 0rem;
   opacity: .75;
-  padding-block-start: 1.6rem;
+  padding-block-start: .8rem;
 }
 
 .people dialog .links {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
-  justify-self: end;
+  font-size: 1.6rem;
+  gap: .8rem;
+  grid-column: 1/-1;
+  justify-self: start;
   list-style: none;
   margin: 0;
-  padding: 1.6rem;
+  max-width: 100%;
+  padding: 0;
 }
 
 .people dialog .links li {
@@ -168,10 +181,11 @@ body:has(.people dialog[open]) {
 .people dialog .links li a {
   align-items: center;
   display: flex;
-  gap: 1.6rem;
+  gap: .8rem;
   text-decoration: none;
   text-underline-position: under;
   width: fit-content;
+  word-break: break-all;
 }
 
 @media (hover: hover) {
@@ -190,5 +204,52 @@ body:has(.people dialog[open]) {
 
   .people dialog .links li a:hover {
     text-decoration: underline;
+  }
+}
+
+@media (min-width: 640px) {
+  .people dialog .person {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .people dialog .person .media {
+    justify-self: start;
+    max-width: initial;
+  }
+}
+
+@media (min-width: 1152px) {
+  .people dialog {
+    overflow: visible;
+  }
+
+  .people dialog .person {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.6rem;
+  }
+
+  .people dialog .links {
+    font-size: unset;
+    gap: 1.6rem;
+    grid-column: auto;
+    justify-self: end;
+    padding: 1.6rem;
+  }
+
+  .people dialog .links li a {
+    gap: 1.6rem;
+  }
+
+  .people dialog .person .bio {
+    font-size: unset;
+    padding-block-start: 1.6rem;
+  }
+
+  .people dialog > .button {
+    left: 1.6rem;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    translate: 0 -50%;
   }
 }

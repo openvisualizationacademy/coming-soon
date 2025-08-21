@@ -213,7 +213,10 @@
         <div class="people instructors grid">
 
           <dialog closedby="any">
-            <button class="button secondary" onclick="this.parentElement.close()" autofocus>Close</button>
+            <button class="button secondary" onclick="this.parentElement.close()" autofocus>
+              <span class="screen-reader">Close</span>
+              <span aria-hidden="true">✕</span>
+            </button>
             <div class="details"><!-- Filled in JS --></div>
           </dialog>
         </div>
