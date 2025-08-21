@@ -83,11 +83,13 @@ export default class Instructors {
   }
 
   open(index) {
+    this.index = index;
+
     if (!this.dialog) return;
     this.clear();
 
-    if (index < 0) this.index = this.data.length - 1;
-    if (index > this.data.length - 1) this.index = 0;
+    if (this.index < 0) this.index = this.data.length - 1;
+    if (this.index > this.data.length - 1) this.index = 0;
 
     const person = this.data[this.index]
 
