@@ -5,6 +5,10 @@
     "photo": "alberto-cairo.jpg",
     "bio": "Journalist, designer, art director, and educator. He’s the Knight Chair in Infographics and Data Visualization at the University of Miami’s School of Communication, and director of Visualization at UM’s Frost Institute for Data Science and Computing.",
     "role": "instructor",
+    "courses": [
+      "Core Course",
+      "Visualization with Flourish"
+    ],
     "links": [
       "https://www.albertocairo.com/",
       "https://www.linkedin.com/in/albertocairo/",
@@ -17,6 +21,9 @@
     "photo": "lauren-klein.jpg",
     "bio": "Lauren Klein is Professor of Quantitative Theory & Methods and English at Emory University, where she also directs the Emory Digital Humanities Lab and the Atlanta Interdisciplinary AI Network. Her research brings together computational and critical methods to explore questions of gender, race, and justice. Klein is author (with Catherine D’Ignazio) of the award-winning Data Feminism (MIT Press, 2020), and is currently completing Data by Design: An Interactive History of Data Visualization.",
     "role": "instructor",
+    "courses": [
+      "Feminist Data Visualization"
+    ],
     "links": [
       "https://lklein.com"
     ]
@@ -27,6 +34,9 @@
     "photo": "rodolfo-almeida.jpg",
     "bio": "Rodolfo Almeida is a freelance visual journalist, information designer, and researcher from São Paulo. He holds a degree in journalism from PUC-SP and a master’s in design from the Federal University of Rio de Janeiro, where he studied how the climate crisis is portrayed in dataviz. He has created dozens of infographics for outlets like Nexo Jornal, Núcleo, The Intercept, Greenpeace, the European Commission and more. His work has been recognized by awards like Malofiej, SND, Sigma, ÑH, and IIB.",
     "role": "instructor",
+    "courses": [
+      "Figma for Visualization"
+    ],
     "links": [
       "https://rodolfoalmeida.info/",
       "https://linkedin.com/in/rodolfo-almeida/",
@@ -39,6 +49,9 @@
     "photo": "frank-elavsky.jpg",
     "bio": "Frank is a PhD candidate and researcher at the Human-Computer Interaction Institute at Carnegie Mellon University. His work explores the intersection of interactive data visualization and accessibility. Frank has collaborated with companies such as Apple's Human-Centered Machine Intelligence research group, Adobe, Microsoft, Visa, and Highcharts. Frank’s contributions focus on enabling people with and without disabilities find insights, make decisions, and live better lives using data.",
     "role": "instructor",
+    "courses": [
+      "Accessibility in Visualization"
+    ],
     "links": [
       "https://frank.computer",
       "https://bsky.app/profile/frank.computer",
@@ -51,6 +64,9 @@
     "photo": "catherine-d-ignazio.jpg",
     "bio": "Catherine D’Ignazio is an Associate Professor of Urban Science and Planning and Director of the Data + Feminism Lab in the Department of Urban Studies and Planning at MIT. She is the co-author of Data Feminism (2020) and author of Counting Feminicide: Data Feminism in Action (2024), both award-winning books that describe more liberatory and empowering approaches to data science and visualization.",
     "role": "instructor",
+    "courses": [
+      "Feminist Data Visualization"
+    ],
     "links": [
       "https://bsky.app/profile/kanarinka.bsky.social"
     ]
@@ -61,6 +77,9 @@
     "photo": "joy-victor.jpg",
     "bio": "Joy Victor is a Data Analyst and AI Ethics Wingwoman. She leads the data analysis and visualization efforts for the AIAI Network's Public Interest AI project under DataedX. In her most recent report, she examined the intersection of Georgia’s cybercrime activity and the influence of AI. Joy is also a Tableau Ambassador, co-lead of the Tableau + AI User Group, and a contributor to the Rebel Tech Newsletter.",
     "role": "instructor",
+    "courses": [
+      "Generative AI for Visualization"
+    ],
     "links": [
       "https://www.linkedin.com/in/jhoie",
       "https://x.com/Jhoie__",
@@ -73,6 +92,9 @@
     "photo": "luis-melgar.jpg",
     "bio": "Luis Melgar is a graphics reporter with more than a decade of experience making data visualizations, both static and interactive. Since 2022, he has worked for the graphics team at The Washington Post, where he mostly covers economic issues. Before joining the Post, he worked for Univision, The Wall Street Journal and Guns & America, a public media reporting collaborative that covered gun violence and gun culture in the U.S.",
     "role": "instructor",
+    "courses": [
+      "Visualization with Datawrapper"
+    ],
     "links": [
       "https://www.lmelgar.me/"
     ]
@@ -83,6 +105,9 @@
     "photo": "raymond-balise.jpg",
     "bio": "Ray earned his PhD in Experimental Psychology from the University of Texas in 1996. He taught award-winning courses at Stanford in what’s now called data science until joining the University of Miami in 2014. There, he’s continued to earn teaching awards for courses in statistical computing, biostatistics, data science, and reproducible research. His current work explores the intersection of HIV, mental health, substance use, and health disparities.",
     "role": "instructor",
+    "courses": [
+      "Visualization with R, ggplot2, and AI"
+    ],
     "links": [
       "https://derailment.netlify.app/",
       "https://github.com/RaymondBalise"
@@ -94,6 +119,10 @@
     "photo": "hannah-dormido.jpg",
     "bio": "Hannah Dormido is an award-winning visual journalist and cartographer at The Washington Post, where she focuses on national news and politics. With more than a decade of experience at The Post, Bloomberg News, and the Financial Times, she has shaped stories that turn complex data into compelling visuals. She is the president of the North American Cartographic Information Society and creator of Dormidots, a distinctive hand-drawn mapping style.",
     "role": "instructor",
+    "courses": [
+      "Cartography and Map Design with QGIS",
+      "Rawgraphs for Visualization"
+    ],
     "links": [
       "https://hannahdormido.com",
       "https://instagram.com/byhannahdormido"
@@ -105,6 +134,9 @@
     "photo": "gurman-bhatia.jpg",
     "bio": "Gurman Bhatia is the Founder & Director of Revisual Labs, India’s foremost information design studio. An award-winning practice, Revisual Labs works at the intersection of data, design, and storytelling. A former data journalist with over a decade of experience, Gurman has trained 1,500+ professionals worldwide in data storytelling, helping organizations transform complex information into clarity, creativity, and impact.",
     "role": "instructor",
+    "courses": [
+      "The Craft of Building Stories with Data"
+    ],
     "links": [
       "https://www.gurmanbhatia.com",
       "https://www.linkedin.com/in/gurmanbhatia/",
@@ -117,6 +149,10 @@
     "photo": "",
     "bio": "",
     "role": "instructor",
+    "courses": [
+      "Applied Data Ethics",
+      "Designing Dashboards"
+    ],
     "links": []
   },
   {
@@ -125,6 +161,9 @@
     "photo": "",
     "bio": "",
     "role": "instructor",
+    "courses": [
+      "The Art of Reading Charts"
+    ],
     "links": []
   },
   {
@@ -133,6 +172,9 @@
     "photo": "",
     "bio": "",
     "role": "instructor",
+    "courses": [
+      "Adobe Illustrator for Visualization Design"
+    ],
     "links": []
   },
   {
@@ -141,6 +183,9 @@
     "photo": "",
     "bio": "",
     "role": "instructor",
+    "courses": [
+      "Python for Data Visualization"
+    ],
     "links": []
   },
   {
