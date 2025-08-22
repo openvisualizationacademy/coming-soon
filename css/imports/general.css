@@ -5,7 +5,7 @@
   font-weight: 100 900;
 
 src: url("../../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2 supports variations"),
-    url("../../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
+       url("../../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
 }
 
 html {
@@ -20,6 +20,10 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.4rem;
+}
+
+video::cue {
+  font-family: "AtkinsonHyperlegibleNextVF", sans-serif;
 }
 
 .background {
