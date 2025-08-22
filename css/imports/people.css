@@ -149,15 +149,30 @@ body:has(.people dialog[open]) {
   margin-block-end: .8rem;
 }
 
+.people dialog .person h3 {
+  font-variant: all-small-caps;
+  letter-spacing: .025em;
+  margin-block-end: .25em;
+}
+
 .people dialog .person .tagline {
   font-size: unset;
 }
 
 .people dialog .person .bio {
   font-size: 1.6rem;
-  margin-block-end: 0rem;
   opacity: .75;
   padding-block-start: .8rem;
+
+  /* margin-block-end: 0; */
+}
+
+.people dialog .courses {
+  font-size: 1.6rem;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 1em;
 }
 
 .people dialog .links {

@@ -104,10 +104,15 @@ export default class Instructors {
         <div class="info">
           <h2><strong>${person.name}<span class="screen-reader"/>.</span></strong></h2>
           <span class="tagline">${person.tagline}</span>  
-          <p class="bio">${person.bio}</p>
+          <p class="bio">${person.bio}</p>          
+
+          <h3>${ person.courses.length > 1 ? "Courses" : "Course" }</h3>
+          <ul class="courses">
+            ${ person.courses.map(course => `<li>${course}</li>`).join("") }
+          </ul>
         </div>
-        <ul class="links">
-          ${ this.list(person.links) }
+          <ul class="links">
+            ${ this.list(person.links) }
           </ul>
       </div>
     </div>
