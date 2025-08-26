@@ -146,36 +146,48 @@
   {
     "name": "Bridget Winds Cogley",
     "tagline": "",
-    "photo": "",
+    "photo": "bridget-winds-cogley.jpg",
     "bio": "",
     "role": "instructor",
     "courses": [
       "Applied Data Ethics",
       "Designing Dashboards"
     ],
-    "links": []
+    "links": [
+      "https://bridgetcogley.com",
+      "https://tableaufit.com",
+      "https://www.linkedin.com/in/bridgetcogley",
+      "https://bsky.app/profile/cogley.bsky.social"
+    ]
   },
   {
     "name": "Enrico Bertini",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
+    "tagline": "Associate Professor at Northeastern University",
+    "photo": "enrico-bertini.jpg",
+    "bio": "Dr. Bertini serves as an Associate Professor at Northeastern University, focusing on research and teaching in the fields of data visualization and visual analytics. His work covers a broad spectrum within data science and visualization, including both empirical studies and practical applications. Dr. Bertini also authors a newsletter titled FILWD, where he shares insights on data, AI, and visualization. Additionally, he offers public and private workshops on data thinking and visualization.",
     "role": "instructor",
     "courses": [
       "The Art of Reading Charts"
     ],
-    "links": []
+    "links": [
+      "https://enrico.bertini.io/",
+      "https://filwd.substack.com/",
+      "https://www.linkedin.com/in/ebertini/"
+    ]
   },
   {
     "name": "Hiram Henriquez",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
+    "tagline": "Founder and Creative Director of H2H Graphics & Design Inc.",
+    "photo": "hiram-Henriquez.jpg",
+    "bio": "Hiram Henriquez’s career spans over 30 years working at The Miami Herald (graphics editor), the South Florida Sun Sentinel (sr. graphics reporter), and National Geographic (graphics editor). Hiram runs his own design studio, H2H Graphics & Design Inc., specializing in illustration, informational graphics, and visual design. He is also a senior lecturer at UM’s School of Communication teaching Visual Design and Informational Graphics.",
     "role": "instructor",
     "courses": [
       "Adobe Illustrator for Visualization Design"
     ],
-    "links": []
+    "links": [
+      "https://com.miami.edu/profile/hiram-henriquez",
+      "https://www.h2hgraphics.com"
+    ]
   },
   {
     "name": "James McKenney",
