@@ -47,6 +47,10 @@
 }
 
 @media (hover: hover) {
+  .button.primary:hover {
+    background-color: light-dark(var(--primary-700), var(--primary-700));
+  }
+
   .button.tertiary:hover {
     border: 1px solid currentColor;
   }
