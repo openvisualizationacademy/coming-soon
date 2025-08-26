@@ -44,7 +44,7 @@ export default class Instructors {
               : `<div class="media"></div>`
           }
           <figcaption>
-            <strong>${person.name}<span class="screen-reader"/>.</span></strong>
+            <strong>${person.name}</strong>
             <span class="tagline">${person.tagline}</span>  
           </figcaption>
         </figure>
@@ -102,7 +102,7 @@ export default class Instructors {
             : `<div class="media"></div>`
         }
         <div class="info">
-          <h2><strong>${person.name}<span class="screen-reader"/>.</span></strong></h2>
+          <h2><strong>${person.name}</strong></h2>
           <span class="tagline">${person.tagline}</span>  
           <p class="bio">${person.bio}</p>          
 

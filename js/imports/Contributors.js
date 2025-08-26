@@ -14,7 +14,7 @@ export default class Contributors {
     this.data.forEach((person) => {
       const card = `
       <a href="${person.links[0]}" target="_blank" class="person" data-role="${this.role}" data-former="${!!person.former}">
-        <strong>${person.name}<span class="screen-reader"/>.</span></strong>
+        <strong>${person.name}</strong>
         <span class="tagline">${person.tagline}</span> 
 
         <svg class="icon" data-iconoir="open-new-window" viewBox="0 0 24 24" width="24px" height="24px" stroke-width="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
