@@ -94,7 +94,7 @@ a.person[data-role="contributor"]:focus-visible .icon {
   margin-inline: auto;
   max-width: var(--max-width);
   padding: 1.6rem;
-  width: calc(100% - calc(var(--margin) * 2));
+  width: calc(100% - calc(var(--margin) * 1));
 }
 
 body:has(.people dialog[open]) {
@@ -121,6 +121,8 @@ body:has(.people dialog[open]) {
   margin-block-end: 1.6rem;
   margin-inline: auto;
   padding: .6rem;
+  position: fixed;
+  z-index: 1;
 }
 
 .people dialog .person {
@@ -136,6 +138,7 @@ body:has(.people dialog[open]) {
 
 .people dialog .person .media {
   align-self: start;
+  border-radius: .8rem;
   justify-self: center;
   max-width: 24rem;
   width: 100%;
@@ -223,13 +226,22 @@ body:has(.people dialog[open]) {
 }
 
 @media (min-width: 640px) {
+  .people dialog[open] {
+    width: calc(100% - calc(var(--margin) * 2));
+  }
+
   .people dialog .person {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .people dialog .person .media {
+    border-radius: .4rem;;
     justify-self: start;
     max-width: initial;
+  }
+
+  .people dialog > .button {
+    position: relative;
   }
 }
 
