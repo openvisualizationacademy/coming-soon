@@ -62,20 +62,20 @@ export default class Instructors {
     this.setupCards();
 
     // Change instructor with arrow keys when dialog is open
-    document.addEventListener('keydown', (event) => {
-      if (!this.dialog.open) return;
+    // document.addEventListener('keydown', (event) => {
+    //   if (!this.dialog.open) return;
 
-      const {key} = event;
+    //   const {key} = event;
 
-      if (key === "ArrowLeft") {
-        this.index--;
-        this.open(this.index);
-      } else if (key === "ArrowRight") {
-        this.index++;
-        this.open(this.index);
-      }
+    //   if (key === "ArrowLeft") {
+    //     this.index--;
+    //     this.open(this.index);
+    //   } else if (key === "ArrowRight") {
+    //     this.index++;
+    //     this.open(this.index);
+    //   }
 
-    });
+    // });
   }
 
   clear() {
