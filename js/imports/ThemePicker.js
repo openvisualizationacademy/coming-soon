@@ -8,6 +8,8 @@ export default class ThemePicker {
     this.inputs = [this.light, this.dark];
     this.system = "light";
     this.tempClass = "theme-adjusted";
+    this.overriden = false;
+
     this.setup();
   }
 
@@ -29,26 +31,37 @@ export default class ThemePicker {
     this.system = this.mediaQuery.matches ? "dark" : "light";
     this.dark.checked = this.mediaQuery.matches;
     this.light.checked = !this.mediaQuery.matches;
+
     this.mediaQuery.addEventListener("change", (event) => {
       this.system = this.mediaQuery.matches ? "dark" : "light";
       this.dark.checked = event.matches;
       this.light.checked = !event.matches;
+
+      // Forget user preference
+      localStorage.removeItem("theme");
+
       this.update();
     });
+
     this.inputs.forEach((input) => {
       input.addEventListener("change", (event) => {
+        localStorage.setItem("theme", this.user);
         this.update();
       });
     });
+
+    // Remember user preference
+    this.overriden = ["light","dark"].includes(localStorage.getItem("theme"));
+    if (this.overriden) {
+      const theme = localStorage.getItem("theme");
+      this[ theme ].checked = true;
+      this.update();
+    }
   }
 
   addTemporaryImage(picture) {
-    console.log("user theme is", this.user);
-
     const themeSrc = picture.querySelector(`source[media*="${this.user}"`)?.srcset;
     const pictureImg = picture.querySelector("img");
-
-    console.log(themeSrc, pictureImg);
 
     if (!themeSrc || !pictureImg) return;
 
