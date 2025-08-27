@@ -18,3 +18,10 @@
   user-select: none;
   width: 100% !important;
 }
+
+
+@media (prefers-reduced-motion: reduce) {
+  .wave {
+    visibility: hidden;
+  }
+}
