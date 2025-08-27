@@ -191,9 +191,9 @@
   },
   {
     "name": "James McKenney",
-    "tagline": "",
-    "photo": "",
-    "bio": "",
+    "tagline": "Lead Data Analyst FP&A at Kaseya, Adjunct Faculty at the University of Miami, Managing Member Walker Engineering",
+    "photo": "james-mckenney.jpg",
+    "bio": "I am Lead Data Analyst in FP&A at Kaseya and Adjunct Faculty in the University of Miami’s School of Communication. My work centers on making code and data visualization accessible, bridging business analytics with teaching. I enjoy helping others use Python and data storytelling to bring clarity to complex ideas.",
     "role": "instructor",
     "courses": [
       "Python for Data Visualization"
