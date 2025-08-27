@@ -21,6 +21,9 @@
 
     <header class="grid">
       <nav>
+        <a href="#main" class="button tertiary skip-to-main" onclick="document.getElementById('main').focus()">
+          Skip to main
+        </a>
         <div class="links">
           <a href="/">
             <div class="logo" aria-hidden="true" style="height: 7.2rem"></div>
@@ -69,7 +72,7 @@
       <section class="cover grid">
         <div class="info">
           <div class="wave"></div>
-          <h1 class="title">
+          <h1 class="title" id="main" tabindex="-1">
             <span class="screen-reader">
               Open Visualization Academy by Alberto Cairo
             </span>
