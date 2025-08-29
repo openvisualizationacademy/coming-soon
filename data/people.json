@@ -3,11 +3,10 @@
     "name": "Alberto Cairo",
     "tagline": "Journalist, Designer, Art Director, and Educator",
     "photo": "alberto-cairo.jpg",
-    "bio": "Journalist, designer, art director, and educator. He’s the Knight Chair in Infographics and Data Visualization at the University of Miami’s School of Communication, and director of Visualization at UM’s Frost Institute for Data Science and Computing.",
+    "bio": "He’s the Knight Chair in Infographics and Data Visualization at the University of Miami, and director of the Visualization program at UM’s Frost Institute for Data Science and Computing. Cairo has been a graphics director at news publications in Spain and Brazil, and works as a visualization consultant for numerous companies and international organizations. He’s the author of four books, the most recent ones being ‘How Charts Lie’ (2019) and ‘The Art of Insight’ (2023)",
     "role": "instructor",
     "courses": [
-      "Core Course",
-      "Visualization with Flourish"
+      "Core Course"
     ],
     "links": [
       "https://www.albertocairo.com/",
