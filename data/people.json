@@ -202,36 +202,48 @@
   {
     "name": "Vinicius Sueiro",
     "tagline": "Designer and Front-end Developer",
+    "photo": "",
+    "bio": "",
     "role": "contributor",
     "links": ["https://vsueiro.com/"]
   },
   {
     "name": "Melissa Strong",
     "tagline": "Back-end Developer and Newsletter Contributor",
+    "photo": "",
+    "bio": "",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/melissaashliestrong/"]
   },
   {
     "name": "Larry Flores",
     "tagline": "Video Production and Editing",
+    "photo": "",
+    "bio": "",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/larry-flores-ii-5617351bb/"]
   },
   {
     "name": "Rosaura Echegaray",
     "tagline": "Logistics and Finance",
+    "photo": "",
+    "bio": "",
     "role": "contributor",
     "links": ["https://com.miami.edu/profile/rosaura-echegaray/"]
   },
   {
-    "name": "Michela Tjan",
+    "name": "Michela Effendie",
     "tagline": "Newsletter Contributor and Developer",
+    "photo": "",
+    "bio": "Michela Effendie is an AI Engineer at Detect, where she develops scalable AI solutions for utility asset management using drone and smartphone imagery. A former competitive golfer for Indonesia’s National Team turned data scientist, she holds a master’s in data science from the University of Miami, where she conducted research in machine learning, computer vision, and model explainability. Michela is also part of the founding freelancers at Data Freelancers, blending technical expertise with storytelling to create impactful, interdisciplinary solutions.",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/michela-tjan-sakti-effendie/"]
   },
   {
     "name": "Yestin Arvin Gochuico",
     "tagline": "Newsletter Contributor",
+    "photo": "",
+    "bio": "",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/gochuico/"]
   }
