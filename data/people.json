@@ -207,7 +207,7 @@
   },
   {
     "name": "Melissa Strong",
-    "tagline": "Back-end Developer",
+    "tagline": "Back-end Developer and Newsletter Contributor",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/melissaashliestrong/"]
   },
@@ -225,9 +225,14 @@
   },
   {
     "name": "Michela Tjan",
-    "tagline": "Writer and Developer",
+    "tagline": "Newsletter Contributor and Developer",
     "role": "contributor",
-    "links": ["https://www.linkedin.com/in/michela-tjan-sakti-effendie/"],
-    "former": true
+    "links": ["https://www.linkedin.com/in/michela-tjan-sakti-effendie/"]
+  },
+  {
+    "name": "Yestin Arvin Gochuico",
+    "tagline": "Newsletter Contributor",
+    "role": "contributor",
+    "links": ["https://www.linkedin.com/in/gochuico/"]
   }
 ]
