@@ -38,15 +38,11 @@
   box-shadow: 0 0 0 1px light-dark(var(--neutral-200), var(--neutral-800));
   display: block;
   margin-block: 3.2rem 1.2rem;
-  opacity: 0;
+  opacity: 1;
   outline: none;
   transition: opacity 0.4s;
   transition-delay: 0.4s;
   width: 100%;
-}
-
-.cover .preview video.loaded {
-  opacity: 1;
 }
 
 .cover .preview .controls {
@@ -65,16 +61,12 @@
 
 .cover .preview .video-wrapper [data-control] {
   left: 50%;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 50%;
   transition: opacity 0.4s;
   transition-delay: 1.2s;
   translate: -50% -50%;
-}
-
-.cover .preview:has(video.loaded) .video-wrapper [data-control] {
-  opacity: 1;
 }
 
 .cover .preview .secondary {
