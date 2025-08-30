@@ -3,6 +3,10 @@
   margin-block-end: 9.6rem;
 }
 
+.people.grid {
+  row-gap: 0;
+}
+
 .people > * {
   grid-column: unset;
 }
@@ -226,6 +230,10 @@ body:has(.people dialog[open]) {
 }
 
 @media (min-width: 640px) {
+  .people.grid {
+    row-gap: inherit;
+  }
+
   .people dialog[open] {
     width: calc(100% - calc(var(--margin) * 2));
   }
