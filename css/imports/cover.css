@@ -4,18 +4,31 @@
   position: relative;
 }
 
+.cover .heading {
+  grid-column: span 12;
+  order: 1;
+}
+
 .cover .info {
   grid-column: span 12;
+  order: 2;
 }
 
 .cover .preview {
   grid-column: span 12;
   margin: 0;
+  order: 4;
+}
+
+.cover .newsletter-cta {
+  grid-column: span 12;
+  margin: 0;
+  order: 3;
 }
 
 .cover h1 {
   line-height: 0;
-  margin-block-end: 4.8rem;
+  margin-block-end: 2.4rem;
 }
 
 .cover h1 svg {
@@ -27,6 +40,8 @@
   max-width: 36ch;
   text-wrap: balance;
 }
+
+.cover .newsletter-cta
 
 .cover .button.primary {
   margin-top: 2.4rem;
@@ -71,12 +86,12 @@
 
 .cover .preview .secondary {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   gap: 2.4rem;
   justify-content: space-between;
   letter-spacing: 0.025em;
-  padding: 0.6rem 1.2rem;
   margin: 0;
+  padding: 0.6rem 1.2rem;
 }
 
 .cover .preview .duration {
@@ -93,15 +108,29 @@
 }
 
 @media (min-width: 960px) {
+
+  .cover .heading,
+  .cover .info,
+  .cover .preview,
+  .cover .newsletter-cta {
+    order: unset;
+  }
+
+  .cover .heading,
   .cover .info {
     grid-column: span 6;
   }
 
-  .cover .preview {
+  .cover .preview,
+  .cover .newsletter-cta {
     grid-column: span 4 / -1;
   }
 
   .cover .preview video {
     margin-block: 2.4rem 1.2rem;
+  }
+
+  .cover .newsletter-cta {
+    text-align: end;
   }
 }
