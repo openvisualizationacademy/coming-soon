@@ -1,8 +1,8 @@
 import People from "./People.js";
 
 export default class Instructors extends People {
-  constructor(selector) {
-    super(selector, "instructor", "instructors");
+  constructor(app, selector) {
+    super(app, selector, "instructor", "instructors");
   }
 
   getDetails(person) {

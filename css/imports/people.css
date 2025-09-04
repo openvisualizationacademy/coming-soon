@@ -75,12 +75,12 @@
   /* opacity: 0.5; */
 }
 
-.person[data-role="contributor"] strong {
+/* .person[data-role="contributor"] strong {
   align-items: center;
   display: flex;
 }
 
-.person[data-role="contributor"] .icon {
+.person[data-role="contributor"] [data-icon] {
   opacity: 0;
   position: absolute;
   right: 1.6rem;
@@ -88,9 +88,9 @@
   transition: opacity 0.2s;
 }
 
-a.person[data-role="contributor"]:focus-visible .icon {
+a.person[data-role="contributor"]:focus-visible [data-icon] {
   opacity: 1;
-}
+} */
 
 .people dialog[open] {
   border: 1px solid currentColor;
@@ -220,9 +220,9 @@ body:has(.people dialog[open]) {
     border: 1px solid light-dark(var(--neutral-900), var(--neutral-100));
   }
 
-  .person[data-role="contributor"]:is(a,button,[role=button]):hover .icon {
+  /* .person[data-role="contributor"]:is(a,button,[role=button]):hover [data-icon] {
     opacity: 1;
-  }
+  } */
 
   .people dialog .links li a:hover {
     text-decoration: underline;
