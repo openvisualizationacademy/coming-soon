@@ -6,12 +6,14 @@ export default class Instructors extends People {
   }
 
   getDetails(person) {
+    const alt = person.alt ? person.alt : "Profile photo";
+
     return `
     <div class="details">
       <div class="person" data-role="${this.role}">
         ${
           person.photo
-            ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile photo">`
+            ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="${alt}">`
             : `<div class="media"></div>`
         }
         <div class="info">
