@@ -202,16 +202,16 @@
   {
     "name": "Vinicius Sueiro",
     "tagline": "Designer and Front-end Developer",
-    "photo": "",
-    "bio": "",
+    "photo": "vinicius-sueiro.jpg",
+    "bio": "Vinicius (Vini) Sueiro is a Brazilian designer using technology to inform & delight humans. With over 12 years of experience, he has led award-winning data visualization projects for organizations like Google, The Washington Post, Estadão, and the World Health Organization. With a bachelor’s in Design by the University of São Paulo and a master’s in Interaction Design by Malmö University, Vinicius also has experience as an educator, both in Brazil and at the University of Miami.",
     "role": "contributor",
     "links": ["https://vsueiro.com/"]
   },
   {
     "name": "Melissa Strong",
     "tagline": "Back-end Developer and Newsletter Contributor",
-    "photo": "",
-    "bio": "",
+    "photo": "melissa-strong.jpg",
+    "bio": "Versatile IT Professional with 8+ years of engineering and administration experience. Ability to develop resolutions to complex problems that require the frequent use of creativity and innovation. Skilled in developing automation workflows to support reliability and consistency, and troubleshooting both Linux and Windows systems. Presently working towards a master’s degree in data science at the University of Miami.",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/melissaashliestrong/"]
   },
@@ -226,7 +226,7 @@
   {
     "name": "Rosaura Echegaray",
     "tagline": "Logistics and Finance",
-    "photo": "",
+    "photo": "rosaura-echegaray.jpg",
     "bio": "",
     "role": "contributor",
     "links": ["https://com.miami.edu/profile/rosaura-echegaray/"]
@@ -234,7 +234,7 @@
   {
     "name": "Michela Tjan",
     "tagline": "Newsletter Contributor and Developer",
-    "photo": "",
+    "photo": "michela-tjan.jpg",
     "bio": "Michela Tjan is an AI Engineer at Detect, where she develops scalable AI solutions for utility asset management using drone and smartphone imagery. A former competitive golfer for Indonesia’s National Team turned data scientist, she holds a master’s in data science from the University of Miami, where she conducted research in machine learning, computer vision, and model explainability. Michela is also part of the founding freelancers at Data Freelancers, blending technical expertise with storytelling to create impactful, interdisciplinary solutions.",
     "role": "contributor",
     "links": ["https://www.tjanmichela.com"]
@@ -242,8 +242,8 @@
   {
     "name": "Yestin Arvin Gochuico",
     "tagline": "Newsletter Contributor",
-    "photo": "",
-    "bio": "",
+    "photo": "yestin-arvin-gochuico.jpg",
+    "bio": "As a creative technologist specializing in Data Science & Visualization, I’m interested in understanding how to represent data through visual encoding with intention — to see the story behind the numbers. Beyond that, I bring a breadth of transferrable skills from dabbling in different areas of technology such as XR Development, Game Development, Web Development, and Interaction Design.",
     "role": "contributor",
     "links": ["https://www.linkedin.com/in/gochuico/"]
   }
