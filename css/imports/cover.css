@@ -101,6 +101,8 @@
   align-items: baseline;
   color: light-dark(var(--neutral-600), var(--neutral-400));
   display: flex;
+  text-align: end;
+  white-space: nowrap;
 }
 
 .cover .preview .duration [data-icon] {
