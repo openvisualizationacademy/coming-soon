@@ -32,7 +32,7 @@ export default class People {
         <figure>
           ${
             person.photo
-              ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile photo">`
+              ? `<img class="media" src="media/people/small/${person.photo}" loading="lazy" alt="Profile">`
               : `<div class="media"></div>`
           }
           <figcaption>

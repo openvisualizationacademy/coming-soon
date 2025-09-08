@@ -6,7 +6,7 @@ export default class Instructors extends People {
   }
 
   getDetails(person) {
-    const alt = person.alt ? person.alt : "Profile photo";
+    const alt = person.alt ? person.alt : "Profile";
 
     return `
     <div class="details">
