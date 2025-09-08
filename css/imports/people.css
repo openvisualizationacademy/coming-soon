@@ -180,6 +180,7 @@ body:has(.people dialog[open]) {
   margin: 0;
   padding: 0;
   padding-inline-start: 1em;
+  text-wrap: balance;
 }
 
 .people dialog .links {
