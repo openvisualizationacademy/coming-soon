@@ -77,6 +77,9 @@ export default class People {
 
     this.dialog.insertAdjacentHTML('beforeend', details);
     this.dialog.showModal();
+
+    // Update dynamically created svg icon placeholders
+    this.app.icons.update();
   }
 
   close() {
@@ -93,9 +96,8 @@ export default class People {
       }
     }
 
-    const svg = this.app.icons.get(platform)
-
-    return svg.outerHTML;
+    const svg = this.app.icons.getPlaceholder(platform);
+    return svg;
   }
 
   clean(link) {
