@@ -124,7 +124,7 @@
     "name": "Hannah Dormido",
     "tagline": "Graphics Reporter and Cartographer at the Washington Post",
     "photo": "hannah-dormido.jpg",
-    "alt": "",
+    "alt": "A woman smiling with medium-length dark hair, red eyeglasses, and wearing a black dress.",
     "bio": "Hannah Dormido is an award-winning visual journalist and cartographer at The Washington Post, where she focuses on national news and politics. With more than a decade of experience at The Post, Bloomberg News, and the Financial Times, she has shaped stories that turn complex data into compelling visuals. She is the president of the North American Cartographic Information Society and creator of Dormidots, a distinctive hand-drawn mapping style.",
     "role": "instructor",
     "courses": [
@@ -247,7 +247,7 @@
     "name": "Rosaura Echegaray",
     "tagline": "Logistics and Finance",
     "photo": "rosaura-echegaray.jpg",
-    "alt": "",
+    "alt": "A smiling woman with blonde hair stands outdoors in front of palm trees, wearing a light-colored blouse and crossing her arms.",
     "bio": "Rosaura Echegaray is the Program Coordinator at the School of Communication, where she partners with the Knight Chairs in Data Visualization and Interactive Media to bring innovative programs and events to life. She manages logistics and strategic coordination for externally funded initiatives, working closely with faculty, students, and community stakeholders. Her role centers on creating impactful experiences that advance the school’s mission to promote media literacy and strengthen communication in today’s fast-changing landscape.",
     "role": "contributor",
     "links": ["https://com.miami.edu/profile/rosaura-echegaray/"]
@@ -271,13 +271,16 @@
     "links": ["https://www.linkedin.com/in/gochuico/"]
   },
   {
-    "name": "Jay (Pending)",
-    "tagline": "",
-    "photo": "",
-    "alt": "",
-    "bio": "",
+    "name": "Jay Wilkins",
+    "tagline": "Music and Sound Effects",
+    "photo": "jay-wilkins.jpg",
+    "alt": "Young adult with medium brown skin, glasses, and a fade with jaw length locs on the top, all pushed over to their right side. The tip of each loc is dyed a bright maroon. They also have a mustache and a beard that only covers the chin. They're sat at a piano, fingers resting on the keys, and turned to look at the camera with a pleasant expression.",
+    "bio": "Jay Wilkins is a musician from Atlanta. With a degree in media scoring from the University of Miami, they are a composer influenced by a wide variety of genres from early video game chiptune to punk, from jazz to classical.",
     "role": "contributor",
-    "links": []
+    "links": [
+      "https://www.youtube.com/@jayphonic9244",
+      "https://www.instagram.com/jayphonic/"
+    ]
   },
   {
     "name": "Wendy (Pending)",
