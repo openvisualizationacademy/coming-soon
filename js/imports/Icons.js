@@ -31,7 +31,7 @@ export default class Icons {
     if (!(name in this.cache)) {
       // Fetch icon svg as string from media/icons/ and store it in cache
       const response = await fetch(`./media/icons/${name}.svg`);
-      if (!response) return;
+      if (!response.ok) return;
 
       const string = await response.text();
       if (!string) return;

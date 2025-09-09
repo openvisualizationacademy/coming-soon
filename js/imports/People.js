@@ -4,7 +4,7 @@ export default class People {
   constructor(app, selector, role, property) {
     this.app = app;
 
-    this.element = document.querySelector(selector) || document.body;
+    this.element = document.querySelector(selector);
     if (!this.element) return;
 
     this.dialog = this.element.querySelector('dialog');
