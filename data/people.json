@@ -219,7 +219,10 @@
     "photo": "vinicius-sueiro.jpg",
     "alt": "A white man with short brown hair, wearing green glasses and a navy blue t-shirt faces the camera with a subtle friendly smile.",
     "bio": "Vinicius (Vini) Sueiro is a Brazilian designer using technology to inform & delight humans. With over 12 years of experience, he has led award-winning data visualization projects for organizations like Google, The Washington Post, Estadão, and the World Health Organization. With a bachelor’s in Design by the University of São Paulo and a master’s in Interaction Design by Malmö University, Vinicius also has experience as an educator, both in Brazil and at the University of Miami.",
-    "role": "contributor",
+    "role": ["contributor", "instructor"],
+    "courses": [
+      "Crafting Graphics with JavaScript"
+    ],
     "links": [
       "https://vsueiro.com/",
       "https://www.linkedin.com/in/vsueiro/"
