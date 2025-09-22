@@ -235,13 +235,16 @@
     "links": ["https://www.linkedin.com/in/melissaashliestrong/"]
   },
   {
-    "name": "Larry Flores",
+    "name": "Larry Flores II",
     "tagline": "Video Production and Editing",
-    "photo": "",
+    "photo": "larry-flores-ii.jpg",
     "alt": "",
-    "bio": "",
+    "bio": "Larry began his filmmaking journey at Texas Christian University, where he discovered his creative voice, and later continued his studies at the University of Miami, with an M.F.A. in Motion Pictures. His films have been screened at Miami Film Festival, Sunscreen Film Festival and Tampa Bay Underground Film Festival. He is a winner of the Best Student Film at the Coconut Grove Film Festival for his directorial work on Purple Grooves: a Funky Tragedy.",
     "role": "contributor",
-    "links": ["https://www.linkedin.com/in/larry-flores-ii-5617351bb/"]
+    "links": [
+      "https://larry-floresii.myportfolio.com",
+      "https://www.instagram.com/smhlorenzo_/"
+    ]
   },
   {
     "name": "Rosaura Echegaray",
@@ -281,14 +284,5 @@
       "https://www.youtube.com/@jayphonic9244",
       "https://www.instagram.com/jayphonic/"
     ]
-  },
-  {
-    "name": "Wendy (Pending)",
-    "tagline": "",
-    "photo": "",
-    "alt": "",
-    "bio": "",
-    "role": "contributor",
-    "links": []
   }
 ]
