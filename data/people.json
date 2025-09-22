@@ -284,5 +284,16 @@
       "https://www.youtube.com/@jayphonic9244",
       "https://www.instagram.com/jayphonic/"
     ]
+  },
+  {
+    "name": "Xiaoqian Dong",
+    "tagline": "Course Documentation",
+    "photo": "xiaoqian-dong.jpg",
+    "alt": "",
+    "bio": "Xiaoqian Dong is a first-year PhD student at the University of Miami, majoring in communication with a focus on data visualization and visual communication. She is a graphic designer and a journalist who spent several years in China working as a journalist and video editor. Xiaoqian earned her master's degree from Syracuse University, where she studied Multimedia, Photography, and Design.",
+    "role": "contributor",
+    "links": [
+      "https://xiaoqiandong.com"
+    ]
   }
 ]
