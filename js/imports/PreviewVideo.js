@@ -3,6 +3,7 @@ export default class PreviewVideos {
     this.app = app;
     this.element = document.querySelector(selector);
     this.video = this.element.querySelector("video");
+    this.minutes = this.element.querySelector(".minutes");
     this.controls = this.element.querySelectorAll("[data-control]");
 
     this.setup();
@@ -46,6 +47,8 @@ export default class PreviewVideos {
     if (this.app.accessibility.reducedMotion) {
       this.pause();
     }
+
+    this.minutes.textContent = `${ Math.round(this.video.duration / 60) } min`;
 
     this.controls.forEach((element) => {
       element.addEventListener("click", () => {
