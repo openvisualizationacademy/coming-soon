@@ -1,7 +1,3 @@
-header nav a {
-  cursor: default;
-}
-
 .logo canvas {
   width: 7.2rem !important;
 }
@@ -19,6 +15,14 @@ main {
 
 .sponsors {
   margin-block-end: 0;
+}
+
+.cover .button.primary {
+  margin-block-start: 1.2rem;
+}
+
+.cover .newsletter-cta small {
+  display: block;
 }
 
 .coming-soon {

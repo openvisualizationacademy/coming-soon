@@ -1,6 +1,11 @@
+import Utils from "./Utils.js";
 import Accessibility from "./Accessibility.js";
 import Logo from "./Logo.js";
 import ThemePicker from "./ThemePicker.js";
+import PreviewVideo from "./PreviewVideo.js";
+import Icons from "./Icons.js";
+import Instructors from "./Instructors.js";
+import Contributors from "./Contributors.js";
 
 export default class App {
   constructor(selector) {
@@ -9,6 +14,8 @@ export default class App {
   }
 
   setup() {
+    this.utils = new Utils(this);
+    this.icons = new Icons(this);
     this.accessibility = new Accessibility(this);
 
     this.logo = new Logo(this, {
@@ -22,8 +29,13 @@ export default class App {
       margin: 168 / 2,
       side: 168,
       wave: true,
+      interactive: false,
     });
 
+    this.previewVideo = new PreviewVideo(this, ".preview");
+    this.instructors = new Instructors(this, ".instructors");
+    this.contributors = new Contributors(this, ".contributors");
+    
     this.themePicker = new ThemePicker(".theme-picker");
 
     // Allow anchor navigation, but don’t change url

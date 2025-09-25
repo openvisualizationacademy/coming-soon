@@ -1,0 +1,177 @@
+[
+  {
+    "id": "",
+    "name": "Generative AI for Visualization",
+    "authors": [
+      "Joy Victor"
+    ],
+    "duration": 0,
+    "description": "Generative AI (Gen AI) cuts across different fields and Data Analysis is no exception. It helps make analysis faster, easier, and more efficient. Like with everything, Gen AI is a double-edged sword with advantages and disadvantages. In this course, you’ll learn about the different applications of Gen AI in data analysis, data preparation, data visualization, querying databases, code generation, prompt engineering, LLM APIs/Libraries, ethics, and case studies.",
+    "chapters": [
+      {
+        "name": "Prompt Engineering",
+        "parts": [
+          "Understanding GenAI",
+          "Building Blocks of a Good Prompt",
+          "Prompting Techniques"
+        ]
+      },
+      {
+        "name": "2. Data Generation, Cleaning, and Descriptive Statistics",
+        "parts": [
+          "Data Generation with Data Mockstar",
+          "Descriptive Statistics and ChatGPT Agent Mode",
+          "Data Cleaning and ChatGPT Projects"
+        ]
+      },
+      {
+        "name": "Data Visualizations and Dashboards",
+        "parts": [
+          "Create data visualizations with Claude",
+          "Create dashboard with Claude",
+          "Getting Expert Feedback on Data Visualizations with VizCriticPro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Visualization with Datawrapper",
+    "authors": [
+      "Luis Melgar"
+    ],
+    "duration": 0,
+    "description": "",
+    "chapters": [
+      {
+        "name": "Introduction to Datawrapper"
+      },
+      {
+        "name": "Uploading data"
+      },
+      {
+        "name": "Creating a chart"
+      },
+      {
+        "name": "Using code to customize yours graphics"
+      },
+      {
+        "name": "Choropleth maps"
+      },
+      {
+        "name": "Proportional symbol maps"
+      },
+      {
+        "name": "Locator maps"
+      },
+      {
+        "name": "Tables"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Figma for Visualization",
+    "authors": [
+      "Rodolfo Almeida"
+    ],
+    "duration": 0,
+    "description": "",
+    "chapters": [
+      {
+        "name": "An introduction to vector graphics in Figma",
+        "parts": [
+          "What we'll cover",
+          "Accessing Figma for the first time",
+          "Vector vs. Raster: what is a vector image",
+          "What can Figma do?",
+          "What Figma cannot (usually) do",
+          "Getting acquainted with the interface",
+          "Moving around a document",
+          "Frames, shapes and text",
+          "Drawing a generic chart with shapes",
+          "Masking elements",
+          "Subtract, intersect, combine: boolean operations",
+          "Basics of designing for the web (alignments and constraints)",
+          "Grids and guides",
+          "One result, many approaches: auto layout",
+          "Customizing your auto layout",
+          "Turtles all the way down: auto layouts inside auto layouts"
+        ]
+      },
+      {
+        "name": "Figma for visualization design",
+        "parts": [
+          "Importing vector graphics into Figma",
+          "Third-party apps to make vector charts: RAW Graphs",
+          "Third-party apps to make vector charts: Flourish",
+          "Customizing a third-party chart",
+          "Time-saving trick: selecting objects by similarity",
+          "Repurposing and reshaping charts",
+          "Screen sizes for visualization",
+          "Tiny charts for tiny screens: the case for a redesign",
+          "Producing a polished static chart from scratch",
+          "Responsive charts",
+          "What about interactivity? The prototype feature"
+        ]
+      },
+      {
+        "name": "Prototypes: making our chart interactive",
+        "parts": [
+          "What constitutes a prototype?",
+          "Lo-Fi vs. Hi-Fi: what is fidelity and how much do I need?",
+          "Know your objectives: the power of a workaround",
+          "First off: rename your frames",
+          "Defining a starting frame",
+          "Connecting frames through interactions",
+          "Click, drag, hover: types of interactions",
+          "Testing a prototype",
+          "Planning interactions for your chart",
+          "Making a drop-down menu",
+          "Making a simple toggle switch",
+          "Grabbing icons from a library: Fontawesome, Noun project and more",
+          "Making a simple tooltip with overlays",
+          "Modals and popups for your chart",
+          "Testing, testing, testing",
+          "Sharing a prototype"
+        ]
+      },
+      {
+        "name": "Putting it all together: prototyping a narrative data story",
+        "parts": [
+          "Planning our story",
+          "Can Figma scrollytell?",
+          "Placing our charts",
+          "Defining which interactions we’ll need",
+          "Lay it on the frame: drafting a story",
+          "Bear in mind: screen sizes in a narrative",
+          "Prototyping interactions",
+          "Scrolling behaviors: headers, footer and sticky UI",
+          "Exporting as images",
+          "Exporting as a PDF",
+          "Handing off for development",
+          "Communication: the key for a smooth handoff",
+          "Components, plugins and other advanced features",
+          "You're just getting started: resources for future learning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "authors": [],
+    "duration": 0,
+    "description": "",
+    "chapters": [
+      {
+        "name": "",
+        "parts": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+]

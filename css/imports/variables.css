@@ -24,6 +24,8 @@
   --primary-700: #e31a1c;
   --primary-800: #bd0026;
   --primary-900: #800026;
+
+  --font-family: "AtkinsonHyperlegibleNextVF", sans-serif;
 }
 
 html {

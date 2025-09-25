@@ -18,9 +18,11 @@ export default class Logo {
       ],
 
       wave: false,
+      interactive: true,
       background: false, // color string or false
       needsUpdate: true, // will be toggled to prevent redrawing same logo
       firstTime: true, // enable initial logo to be drawn
+      hover: false, // keep track of mouseenter/mouseleave events
 
       templates: [
         // horizontal
@@ -156,10 +158,16 @@ export default class Logo {
     // Add hover events, but prevent triggering it immediatly when page loads
     setTimeout(() => {
       this.parent.addEventListener("mouseenter", () => {
-        this.resetTarget("flat");
+        if (this.interactive) {
+          this.hover = true;
+          this.resetTarget("flat");
+        }
       });
       this.parent.addEventListener("mouseleave", () => {
-        this.resetTarget("original");
+        if (this.interactive) {
+          this.hover = false;
+          this.resetTarget("original");
+        }
       });
     }, 100);
   }
@@ -198,8 +206,14 @@ export default class Logo {
     // TEMP: Fixed number of steps
     this.current.steps = 64 - 1;
 
+    // TODO: Improve animation on hover
+    if (this.interactive) {
+      const targetThickness = this.hover ? this.defaults.thickness * 4 : this.defaults.thickness;
+      this.thickness = this.expDecay(this.thickness, targetThickness, this.decays[0]);
+    }
+
     // Apply transparency
-    this.context.globalAlpha = 0.5;
+    this.context.globalAlpha = .5;
     this.colorScale = d3.scaleLinear().domain([0, 1]).range([0.2, 0.8]);
 
     // Draw a line for each step
